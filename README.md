@@ -1,10 +1,15 @@
 # kimcaddie
+---
+
+Official dataset of the paper Analyzing Explainable Relationship between Joint Information and Ball Trajectory through Golf Swing Video Sequences
+. Paper: http link
 
 This dataset contains golf swing analysis data, including video filenames, various golf metrics, and swing-related features during the swings. The data is intended for research and analysis in the field of sports science, particularly focused on golf swing mechanics.
 
 ## Dataset Description
 
-We use a camera-based launch monitor to collect swing videos of various golfers and information on the trajectory of the ball
+Swing videos and ball flight estimates of 12 individuals with diverse golf skills were collected using a camera-based launch monitor called GDR+ from GOLFZON.
+Our dataset consists of 1,709 shots, including 1,094 with driver (W1), 57 with 3 wood (W3), 54 with utility (from 3 to 5, U3-5), 472 with iron (from 4 to 9, I4-I9), and 32 with wedge (PW, AW, SW).
 
 - **fileName**: The name of the video file capturing the golf swing.
 - **view**: The perspective of the video (e.g., FACEON - Face On, DTL - Down The Line).
@@ -39,3 +44,5 @@ Afterward, using computer vision models, we automatically extract the joint info
 - **WEIGHT-SHIFT**: Angle formed by a line connecting left ankle to left pelvis
 - **FINISH-ANGLE**: Angle formed by a line connecting left ankle to right hip
 
+## Citation
+If you use our dataset or find our work is relevant to your research, please cite:
