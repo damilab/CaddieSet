@@ -21,6 +21,7 @@ Our dataset consists of 1,709 shots, including 1,094 with driver (W1), 57 with 3
 - **directionAngle**: The direction angle of the ball.
 - **spinBack**: The backspin of the ball.
 - **spinSide**: The sidespin of the ball.
+- **spinAxis**: The axis when the ball spins.
 - **ballSpeed**: The speed of the ball.
 - **faceAngle**: The left-right angle of the ball.
 - **ballPathCode**: The flight type of the ball.
