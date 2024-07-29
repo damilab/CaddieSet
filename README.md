@@ -1,13 +1,12 @@
-# kimcaddie
+# CaddieSet
 
-Official dataset of the paper Analyzing Explainable Relationship between Joint Information and Ball Trajectory through Golf Swing Video Sequences
-. Paper: http link
+Official dataset of the paper CaddieSet: A Human-Joint Feature Dataset for Golf Swing Analysis. Paper: http link
 
 This dataset contains golf swing analysis data, including video filenames, various golf metrics, and swing-related features during the swings. The data is intended for research and analysis in the field of sports science, particularly focused on golf swing mechanics.
 
 ## Dataset Description
 
-Swing videos and ball flight estimates of 12 individuals with diverse golf skills were collected using a camera-based launch monitor called GDR+ from GOLFZON.
+Swing videos and ball flight estimates of 12 individuals with diverse golf skills were collected using a camera-based launch monitor.
 Our dataset consists of 1,709 shots, including 1,094 with driver (W1), 57 with 3 wood (W3), 54 with utility (from 3 to 5, U3-5), 472 with iron (from 4 to 9, I4-I9), and 32 with wedge (PW, AW, SW).
 
 - **fileName**: The name of the video file capturing the golf swing.
