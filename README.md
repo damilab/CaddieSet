@@ -2,28 +2,23 @@
 
 Official dataset of the paper CaddieSet: A Human-Joint Feature Dataset for Golf Swing Analysis. Paper: http link
 
-This dataset contains golf swing analysis data, including video filenames, various golf metrics, and swing-related features during the swings. The data is intended for research and analysis in the field of sports science, particularly focused on golf swing mechanics.
+This dataset contains golf swing analysis data, including various golf ball flight information, and swing-related features during the swings. The data is intended for research and analysis in the field of sports science, particularly focused on golf swing mechanics.
 
 ## Dataset Description
 
 Swing videos and ball flight estimates of 12 individuals with diverse golf skills were collected using a camera-based launch monitor.
 Our dataset consists of 1,709 shots, including 1,094 with driver (W1), 57 with 3 wood (W3), 54 with utility (from 3 to 5, U3-5), 472 with iron (from 4 to 9, I4-I9), and 32 with wedge (PW, AW, SW).
 
-- **fileName**: The name of the video file capturing the golf swing.
 - **view**: The perspective of the video (e.g., FACEON - Face On, DTL - Down The Line).
 - **club**: The type of golf club used (e.g., W1 - Wood 1 / Driver, I7 - Iron 7, SW - Sand Wedge).
 - **distance**: The total distance the ball traveled.
 - **carry**: The carry distance of the ball.
 - **ipDistanceOut**: The in-plane distance out.
-- **topHeight**: The height of the ball at its apex.
-- **ballAngle**: The launch angle of the ball.
 - **directionAngle**: The direction angle of the ball.
 - **spinBack**: The backspin of the ball.
 - **spinSide**: The sidespin of the ball.
 - **spinAxis**: The axis when the ball spins.
 - **ballSpeed**: The speed of the ball.
-- **faceAngle**: The left-right angle of the ball.
-- **ballPathCode**: The flight type of the ball.
 
 Afterward, using computer vision models, we automatically extract the joint information on the eight events of the golf swing sequence. Then, based on the domain knowledge of golf experts, we generate important features from the swing postures based on the joint values.
 
