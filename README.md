@@ -38,6 +38,9 @@ Afterward, using computer vision models, we automatically extract the joint info
 - **WEIGHT-SHIFT**: Angle formed by a line connecting left ankle to left pelvis
 - **FINISH-ANGLE**: Angle formed by a line connecting left ankle to right hip
 
+## Figma
+Link : https://www.figma.com/design/RCes7fpqo9ilTyFxspbhbE/kimcaddie?node-id=0-1&t=WU8Z3M0iq5YPRL41-1
+
 ## Citation
 
 If you use our dataset or find our work is relevant to your research, please cite:
