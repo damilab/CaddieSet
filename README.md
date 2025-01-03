@@ -6,7 +6,7 @@ This dataset contains golf swing analysis data, including various golf ball flig
 
 ## Dataset Description
 
-Swing videos and ball flight estimates of 12 individuals with diverse golf skills were collected using a camera-based launch monitor.
+Swing videos and ball flight estimates of 8 individuals with diverse golf skills were collected using a camera-based launch monitor.
 Our dataset consists of 1,757 shots, including 924 with FACEON views and 833 with DTL views.
 
 - **View**: The perspective of the video (e.g., FACEON - Face On, DTL - Down The Line).
@@ -19,6 +19,7 @@ Our dataset consists of 1,757 shots, including 924 with FACEON views and 833 wit
 - **SpinSide**: The sidespin of the ball.
 - **SpinAxis**: The axis when the ball spins.
 - **BallSpeed**: The speed of the ball.
+- **GolferId**: Identification of golfers.
 
 Afterward, using computer vision models, we automatically extract the joint information on the eight events of the golf swing sequence. Then, based on the domain knowledge of golf experts, we generate important features from the swing postures based on the joint values.
 
