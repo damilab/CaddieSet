@@ -1,7 +1,6 @@
 # CaddieSet
 
-Official dataset of the paper CaddieSet: A Human-Joint Feature Dataset for Golf Swing Analysis. Paper: http link
-
+Official dataset of the paper CaddieSet: A Human-Joint Feature Dataset for Golf Swing Analysis. Paper: https://openaccess.thecvf.com/content/CVPR2025W/CVSPORTS/html/Jung_CaddieSet_A_Golf_Swing_Dataset_with_Human_Joint_Features_and_CVPRW_2025_paper.html
 This dataset contains golf swing analysis data, including various golf ball flight information, and swing-related features during the swings. The data is intended for research and analysis in the field of sports science, particularly focused on golf swing mechanics.
 
 ## Dataset Description
@@ -46,9 +45,13 @@ Afterward, using computer vision models, we automatically extract the joint info
 - **RIGHT-DISTANCE** : Gap between right elbow and the torso
 - **LEFT-LEG-ANGLE** : Angle formed by left pelvis, knee, and ankle
 
-## Figma
-Link : https://www.figma.com/design/RCes7fpqo9ilTyFxspbhbE/kimcaddie?node-id=0-1&t=WU8Z3M0iq5YPRL41-1
-
 ## Citation
 
 If you use our dataset or find our work is relevant to your research, please cite:
+@inproceedings{jung2025caddieset,
+  title={CaddieSet: A Golf Swing Dataset with Human Joint Features and Ball Information},
+  author={Jung, Seunghyeon and Hong, Seoyoung and Jeong, Jiwoo and Jeong, Seungwon and Choi, Jaerim and Kim, Hoki and Lee, Woojin},
+  booktitle={Proceedings of the Computer Vision and Pattern Recognition Conference},
+  pages={5988--5996},
+  year={2025}
+}
