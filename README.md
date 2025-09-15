@@ -48,6 +48,7 @@ Afterward, using computer vision models, we automatically extract the joint info
 ## Citation
 
 If you use our dataset or find our work is relevant to your research, please cite:
+```bibtex
 @inproceedings{jung2025caddieset,
   title={CaddieSet: A Golf Swing Dataset with Human Joint Features and Ball Information},
   author={Jung, Seunghyeon and Hong, Seoyoung and Jeong, Jiwoo and Jeong, Seungwon and Choi, Jaerim and Kim, Hoki and Lee, Woojin},
@@ -55,3 +56,4 @@ If you use our dataset or find our work is relevant to your research, please cit
   pages={5988--5996},
   year={2025}
 }
+```
