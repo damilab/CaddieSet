@@ -1,6 +1,8 @@
 # CaddieSet
 
-Official dataset of the paper CaddieSet: A Human-Joint Feature Dataset for Golf Swing Analysis. * 📄 **Paper (arXiv):** [(https://openaccess.thecvf.com/content/CVPR2025W/CVSPORTS/html/Jung_CaddieSet_A_Golf_Swing_Dataset_with_Human_Joint_Features_and_CVPRW_2025_paper.html)](https://openaccess.thecvf.com/content/CVPR2025W/CVSPORTS/html/Jung_CaddieSet_A_Golf_Swing_Dataset_with_Human_Joint_Features_and_CVPRW_2025_paper.html)
+Official dataset of the paper CaddieSet: A Human-Joint Feature Dataset for Golf Swing Analysis. 
+📄 **Paper (arXiv):** [(https://openaccess.thecvf.com/content/CVPR2025W/CVSPORTS/html/Jung_CaddieSet_A_Golf_Swing_Dataset_with_Human_Joint_Features_and_CVPRW_2025_paper.html)](https://openaccess.thecvf.com/content/CVPR2025W/CVSPORTS/html/Jung_CaddieSet_A_Golf_Swing_Dataset_with_Human_Joint_Features_and_CVPRW_2025_paper.html)
+
 
 This dataset contains golf swing analysis data, including various golf ball flight information, and swing-related features during the swings. The data is intended for research and analysis in the field of sports science, particularly focused on golf swing mechanics.
 
